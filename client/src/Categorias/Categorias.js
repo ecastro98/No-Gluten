@@ -78,7 +78,11 @@ class CategoryResults extends Component {
     let prodslength = ''
     let page = ''
 
-    { this.state.received ? (length = this.state.result.length, prodslength = this.state.renderedData.length, page = this.state.page) : ('') }
+    if (this.state.received) {
+      length = this.state.result.length; 
+      prodslength = this.state.renderedData.length; 
+      page = this.state.page;
+    }
 
     return (
       <div className='Main'>

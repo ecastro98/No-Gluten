@@ -5,14 +5,23 @@ import '../App.css'
 
 export default class Loader extends React.Component {
 
-  svgRenderer = () => {
-   
-    return <ThreeDots {...this.props} />;
-      
+  svgRenderer = (type = "ThreeDots") => {
+    let svgToRender;
+
+    switch (type) {
+      case "ThreeDots":
+        svgToRender = <ThreeDots {...this.props} />;
+        break;
+      default:
+        svgToRender = <ThreeDots {...this.props} />;
+        break;
+    }
+
+    return svgToRender;
   };
 
   render() {
     const { type } = this.props;
-    return <div className="main-block">{this.svgRenderer()}</div>;
+    return <div className="main-block">{this.svgRenderer(type)}</div>;
   }
 }

@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 class SingleCategory extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
 

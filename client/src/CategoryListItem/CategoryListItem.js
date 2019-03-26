@@ -14,7 +14,6 @@ class CategoryListItem extends Component {
 
   render() {
     console.log(this.props.result)
-    let props = this.props.result 
     let url = './categoria/' + this.props.result.url
 
     return (

@@ -70,68 +70,72 @@ class CategoryResults extends Component {
   render() {
     let { received } = this.state;
     let id = this.state.id
-      if (id == "1") { id = "Aceites"}
-      else if ( id == "2") { id = "Adivitivos y materias primas"}
-      else if ( id == "3") { id = "Aguas y aguas gasificadas"}
-      else if ( id == "4") { id = "Alfajores"}
-      else if ( id == "5") { id = "Algas"}
-      else if ( id == "6") { id = "Alimentos para lactantes (0-12 meses)"}
-      else if ( id == "7") { id = "Alimentos para niños en primera infancia (1-3 años)"}
-      else if ( id == "8") { id = "Alimentos para propósitos médicos específicos"}
-      else if ( id == "9") { id = "Azúcares y mieles"}
-      else if ( id == "10") { id = "Barritas de cereal "}
-      else if ( id == "11") { id = "Bebidas a base de leche"}
-      else if ( id == "12") { id = "Bebidas alcohólicas"}
-      else if ( id == "13") { id = "Bebidas sin alcohol y productos para prepararlas"}
-      else if ( id == "14") { id = "Bombones y chocolates"}
-      else if ( id == "15") { id = "Cacaos"}
-      else if ( id == "16") { id = "Cafés y sustitutos"}
-      else if ( id == "17") { id = "Caldos y sopas"}
-      else if ( id == "18") { id = "Caramelos, chicles, confites y pastillas"}
-      else if ( id == "19") { id = "Carnes"}
-      else if ( id == "20") { id = "Cereales para desayuno"}
-      else if ( id == "21") { id = "Cereales, harinas, premezclas y semillas"}
-      else if ( id == "22") { id = "Coberturas, rellenos y salsas dulces"}
-      else if ( id == "23") { id = "Comidas preparadas y semielaboradas"}
-      else if ( id == "24") { id = "Condimentos"}
-      else if ( id == "25") { id = "Conservas de carnes"}
-      else if ( id == "26") { id = "Conservas de frutas"}
-      else if ( id == "27") { id = "Conservas de hortalizas, verduras y legumbres"}
-      else if ( id == "28") { id = "Cremas"}
-      else if ( id == "29") { id = "Dulces de leche "}
-      else if ( id == "30") { id = "Edulcorantes de mesa"}
-      else if ( id == "31") { id = "Fiambres y embutidos"}
-      else if ( id == "32") { id = "Frutas secas y desecadas"}
-      else if ( id == "33") { id = "Galletas y galletitas"}
-      else if ( id == "34") { id = "Golosinas"}
-      else if ( id == "35") { id = "Hortalizas, verduras y hongos "}
-      else if ( id == "36") { id = "Leches"}
-      else if ( id == "37") { id = "Leches fermentadas"}
-      else if ( id == "38") { id = "Legumbres"}
-      else if ( id == "39") { id = "Leudantes"}
-      else if ( id == "40") { id = "Mantecas"}
-      else if ( id == "41") { id = "Margarinas"}
-      else if ( id == "42") { id = "Mermeladas, confituras y dulces"}
-      else if ( id == "43") { id = "Panes y productos de panadería"}
-      else if ( id == "44") { id = "Pastas"}
-      else if ( id == "45") { id = "Postres, flanes y helados listos para consumir"}
-      else if ( id == "46") { id = "Productos de confitería"}
-      else if ( id == "47") { id = "Productos de repostería"}
-      else if ( id == "48") { id = "Productos para preparar postres, flanes, gelatinas y helados"}
-      else if ( id == "49") { id = "Quesos"}
-      else if ( id == "50") { id = "Sales"}
-      else if ( id == "51") { id = "Salsas y aderezos"}
-      else if ( id == "52") { id = "Snacks"}
-      else if ( id == "53") { id = "Suplementos dietarios"}
-      else if ( id == "54") { id = "Tés e infusiones"}
-      else if ( id == "55") { id = "Yerba mate"}
-      else if ( id == "56") { id = "Yogures "}
+      if (id === "1") { id = "Aceites"}
+      else if ( id === "2") { id = "Adivitivos y materias primas"}
+      else if ( id === "3") { id = "Aguas y aguas gasificadas"}
+      else if ( id === "4") { id = "Alfajores"}
+      else if ( id === "5") { id = "Algas"}
+      else if ( id === "6") { id = "Alimentos para lactantes (0-12 meses)"}
+      else if ( id === "7") { id = "Alimentos para niños en primera infancia (1-3 años)"}
+      else if ( id === "8") { id = "Alimentos para propósitos médicos específicos"}
+      else if ( id === "9") { id = "Azúcares y mieles"}
+      else if ( id === "10") { id = "Barritas de cereal "}
+      else if ( id === "11") { id = "Bebidas a base de leche"}
+      else if ( id === "12") { id = "Bebidas alcohólicas"}
+      else if ( id === "13") { id = "Bebidas sin alcohol y productos para prepararlas"}
+      else if ( id === "14") { id = "Bombones y chocolates"}
+      else if ( id === "15") { id = "Cacaos"}
+      else if ( id === "16") { id = "Cafés y sustitutos"}
+      else if ( id === "17") { id = "Caldos y sopas"}
+      else if ( id === "18") { id = "Caramelos, chicles, confites y pastillas"}
+      else if ( id === "19") { id = "Carnes"}
+      else if ( id === "20") { id = "Cereales para desayuno"}
+      else if ( id === "21") { id = "Cereales, harinas, premezclas y semillas"}
+      else if ( id === "22") { id = "Coberturas, rellenos y salsas dulces"}
+      else if ( id === "23") { id = "Comidas preparadas y semielaboradas"}
+      else if ( id === "24") { id = "Condimentos"}
+      else if ( id === "25") { id = "Conservas de carnes"}
+      else if ( id === "26") { id = "Conservas de frutas"}
+      else if ( id === "27") { id = "Conservas de hortalizas, verduras y legumbres"}
+      else if ( id === "28") { id = "Cremas"}
+      else if ( id === "29") { id = "Dulces de leche "}
+      else if ( id === "30") { id = "Edulcorantes de mesa"}
+      else if ( id === "31") { id = "Fiambres y embutidos"}
+      else if ( id === "32") { id = "Frutas secas y desecadas"}
+      else if ( id === "33") { id = "Galletas y galletitas"}
+      else if ( id === "34") { id = "Golosinas"}
+      else if ( id === "35") { id = "Hortalizas, verduras y hongos "}
+      else if ( id === "36") { id = "Leches"}
+      else if ( id === "37") { id = "Leches fermentadas"}
+      else if ( id === "38") { id = "Legumbres"}
+      else if ( id === "39") { id = "Leudantes"}
+      else if ( id === "40") { id = "Mantecas"}
+      else if ( id === "41") { id = "Margarinas"}
+      else if ( id === "42") { id = "Mermeladas, confituras y dulces"}
+      else if ( id === "43") { id = "Panes y productos de panadería"}
+      else if ( id === "44") { id = "Pastas"}
+      else if ( id === "45") { id = "Postres, flanes y helados listos para consumir"}
+      else if ( id === "46") { id = "Productos de confitería"}
+      else if ( id === "47") { id = "Productos de repostería"}
+      else if ( id === "48") { id = "Productos para preparar postres, flanes, gelatinas y helados"}
+      else if ( id === "49") { id = "Quesos"}
+      else if ( id === "50") { id = "Sales"}
+      else if ( id === "51") { id = "Salsas y aderezos"}
+      else if ( id === "52") { id = "Snacks"}
+      else if ( id === "53") { id = "Suplementos dietarios"}
+      else if ( id === "54") { id = "Tés e infusiones"}
+      else if ( id === "55") { id = "Yerba mate"}
+      else if ( id === "56") { id = "Yogures "}
 
     let length = ''
     let prodslength = ''
     let page = ''
 
-    { this.state.received ? (length = this.state.data.length, prodslength = this.state.renderedData.length, page = this.state.page) : ('') }
+    if (this.state.received) {
+      length = this.state.data.length;
+      prodslength = this.state.renderedData.length;
+      page = this.state.page;
+    }
 
     return (
       <div className='Main'>

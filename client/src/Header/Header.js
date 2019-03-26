@@ -18,7 +18,7 @@ class Header extends Component {
                   </button>
                   <ul className="navbar-nav">
                     <li className="nav-item">
-                      <a className="nav-link" href="/"><img src={logo}></img> Sin Gluten!</a>
+                      <a className="nav-link" href="/"><img src={logo} alt="Logo"></img> Sin Gluten!</a>
                     </li>
                   </ul>
                   <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -33,7 +33,7 @@ class Header extends Component {
                         <a className="nav-link" href="/contacto">Contactanos</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" target="_blank" href="http://www.anmat.gov.ar/Alimentos/libres_gluten/Alimentos_Libres_de_Gluten.asp"><img src={external}></img>  ANMAT</a>
+                        <a className="nav-link" target="_blank" href="http://www.anmat.gov.ar/Alimentos/libres_gluten/Alimentos_Libres_de_Gluten.asp" rel="noopener noreferrer"><img src={external} alt="Icono redirect"></img>  ANMAT</a>
                       </li>
                     </ul>
                   </div>
